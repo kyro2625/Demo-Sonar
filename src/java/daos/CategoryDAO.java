@@ -25,7 +25,7 @@ public class CategoryDAO implements Serializable {
     private Connection conn;
     private PreparedStatement preStm;
     private ResultSet rs;
-
+    private int count;
     public CategoryDAO() {
     }
 
